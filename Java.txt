@@ -1,0 +1,20 @@
+jak mam udowodnic jak nadpisałem string tam najeżdzam na toString i wyskoczy 
+
+klasa object to nad kalsa. Jest korzeniem drzewa hierarchi dziedizczenia. I można uzwayuc wszystkich pochądzocych z niej metod
+Dlaczego moge rozszerzac tylko 1 klase. Twórcy javy zrobili tak, ze mozna roszerzac tylko 1 klase zeby nie robic bałaganu w kodzie.
+
+Jaka jest roznia pomiedzy klasa a klasa abstrakcyjna: 
+W klasie abstract nie mozna tworzyc obiektów, można po niej jedynie dziedziczyć, moze mieć metody, które posiadają implementację, 
+ale także metody abstrakcyjne czyli takie, które są jedynie deklaracją metody. Potomne klasy dziedziczą wszystkie zachowania klasy abstrakcyjnej
+
+Co to jest interfejs - interfejs musi miec jakas metode.Interfejsy to typy, które są bardzo podobne do klas, 
+ale mogą zawierać jedynie stałe i deklaracje metod. Od Javy 8 mogą zawierać także metody default. Służą one do definiowania zachowania dla obiektów.
+
+co to defeault (W klasei Silnik) od javy 8 mozna stosowac to jako 1 ciało 
+Co to jest konstruktor: specjalna metoda danej klasy, wywoływana podczas tworzenia jej instancji. Podstawowym zadaniem konstruktora jest zainicjowanie obiektu
+
+Co to jest super() -  z klasy rozszerzajcej ( samochod) kopiuje obiety(zmienne)
+
+wskazanie na dany element - this sie uzywa 
+
+inne metody niz toString - eequals, hashcode
